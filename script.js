@@ -1,21 +1,26 @@
-
-
-
 //Variables and arrays
-var questions = ["question1", "question2", "question3", "question4", "question5"];
+var quiz = [
+[1, "question1", "option1", "option2", "option3", "option4"],
+[2, "question2", "option1", "option2", "option3", "option4"],
+[3, "question3", "option1", "option2", "option3", "option4"],
+[4, "question4", "option1", "option2", "option3", "option4"],
+[5, "question5", "option1", "option2", "option3", "option4"]
+];
 
-var question1 = ["option1", "option2", "option3", "option4"];
-var question2 = ["option1", "option2", "option3", "option4"];
-var question3 = ["option1", "option2", "option3", "option4"];
-var question4 = ["option1", "option2", "option3", "option4"];
-var question5 = ["option1", "option2", "option3", "option4"];
+var answer;
+var response;
+var button = document.getElementById("start");
 
 //First Click Event to launch game
-var button = document.getElementById("start");
+
 button.addEventListener("click", start);
    console.log("clicked");
 
-//event listeners for correct or incorrect answers for loops
+function start() {
+    document.getElementById("empty").value = quiz;
+        console.log("startquiz");
+}
+
 
 //Finish screen with score calculation
 
