@@ -1,33 +1,16 @@
-/*use hide/appear whatever */
-
 body {
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#timer {
-    
+#score-list {
+    font-size: 1.2rem;
+    color: dimgrey;    
 }
 
-h1 {
-
+#scoresTitle {
+    padding-left: 1rem;
 }
-
-.container {
-
-
-}
-
-#main {
-
-
-}
-
-#buttons {
-
-
-}
-
-#start {
-
-    
+#questions {
+    text-align: center;
 }
