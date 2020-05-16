@@ -33,5 +33,106 @@ quizBeginEl.addEventListener("click", function () {
   
 })
 
+//Changing questions into their own variables instead of arrays
 
+var firstQuestion = {
+    question: "Inside which HTML element do we put the JavaScript?",
+    answers: [
+        {
+            choice: "<js>",
+            correct: false
+        },
+        {
+            choice: "<script>",
+            correct: true
+        },
+        {
+            choice: "<javascript>",
+            correct: false
+        },
+        {
+            choice: "<scripting>",
+            correct: false
+        }
+    ]
+}
+
+var secondQuestion = {
+    question: "Where is the correct place to insert a JavaScript?",
+    answers: [
+        {
+            choice: "The <body> section",
+            correct: false
+        },
+        {
+            choice: "The <head> section",
+            correct: true
+        },
+        {
+            choice: "The <javascript> section",
+            correct: false
+        }
+    ]
+}
+
+var thirdQuestion = {
+    question: "What is the name of a function that is built into an object?",
+    answers: [
+        {
+            choice: "variable",
+            correct: false
+        },
+        {
+            choice: "string",
+            correct: false
+        },
+        {
+            choice: "this",
+            correct: false
+        },
+        {
+            choice: "method",
+            correct: true
+        }
+    ]
+}
+
+var fourthQuestion = {
+    question: "How can you add a comment in a JavaScript?",
+    answers: [
+        {
+            choice: "'This is a comment'",
+            correct: false
+        },
+        {
+            choice: "<!--This is a comment--!>",
+            correct: true
+        },
+        {
+            choice: "//This is a comment",
+            correct: false
+        }
+    ]
+}
+var fifthQuestion = {
+    question: "What is the correct way to write a JavaScript array?",
+    answers: [
+        {
+            choice: "var colors = 'red', 'green', 'blue'",
+            correct: false
+        },
+        {
+            choice: "var colors = [red, green, blue]",
+            correct: true
+        },
+        {
+            choice: "var colors = (red, green, blue)",
+            correct: false
+        },
+        {
+            choice: "var colors = 1 = red, green, blue",
+            correct: false
+        }
+    ]
+}
 
